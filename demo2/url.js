@@ -29,3 +29,13 @@ http.createServer(function (request, response) {
   response.end('sssaaaaaasss');
 
 }).listen(8081);  // 端口号
+
+
+/*  
+      安装    supervisor   
+      安装命令    npm install -g supervisor
+
+      安装成功以后启动文件命令更改为   supervisor url.js
+
+      修改代码是不用重启node服务，直接刷新页面即可
+*/
